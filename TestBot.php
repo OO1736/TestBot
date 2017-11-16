@@ -44,4 +44,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo $text;
+echo $event['replyToken'];
