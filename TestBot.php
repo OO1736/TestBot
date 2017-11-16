@@ -44,4 +44,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo $result . "\r\n";
+echo file_get_contents('php://input');
