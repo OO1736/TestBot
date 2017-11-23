@@ -1,5 +1,5 @@
 <?php
-$access_token = '+qUxoSaUyzwjsnIqmtuPYiiF1Ga1fsgIQlntb89s+Tt5NBuyG+nWb3zIt0SKdASVcTJep3G9xwKl200ZeYmphailPbdWvhi5Pd8WifQ1ez5X1JFVk8lH/BgLCuyQVB6US74W61NDERSzIlVZK82w2wdB04t89/1O/w1cDnyilFU=';
+$access_token = '';
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -40,10 +40,10 @@ if (!is_null($events['events'])) {
 			curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 			curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 			$result = curl_exec($ch);
-			echo curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 			curl_close($ch);
+			echo $result . "\r\n";
 		}
 	}
 }
-//echo "OK";
+echo "OK";
 ?>
