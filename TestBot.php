@@ -45,4 +45,6 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo $conten;
+echo 'conten';
+
+?>
