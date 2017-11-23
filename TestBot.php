@@ -1,5 +1,6 @@
 <?php
-$access_token = 'cccccc';
+$access_token = '+qUxoSaUyzwjsnIqmtuPYiiF1Ga1fsgIQlntb89s+Tt5NBuyG+nWb3zIt0SKdASVcTJep3G9xwKl200ZeYmphailPbdWvhi5Pd8WifQ1ez5X1JFVk8lH/BgLCuyQVB6US74W61NDERSzIlVZK82w2wdB04t89/1O/w1cDnyilFU=
+';
 
 // Get POST body content
 $content = file_get_contents('php://input');
@@ -44,4 +45,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo "OK";
+echo "$ch";
