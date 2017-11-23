@@ -12,9 +12,10 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
 			$text = $event['message']['text'];
-			echo $text . "\r\n";
 			// Get replyToken
 			$replyToken = $event['replyToken'];
+			echo $event['replyToken'];
+			echo "Sucess";
 
 			// Build message to reply back
 			$messages = [
