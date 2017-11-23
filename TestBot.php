@@ -45,4 +45,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo $post;
+echo $access_tokent;
