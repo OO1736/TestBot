@@ -44,4 +44,4 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-echo $messages . "\r\n";
+echo $data . "\r\n";
